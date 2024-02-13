@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@font-face {
+  font-family: "Zuume";
+  src: url("../fonts/Zuume Medium.ttf") format("truetype");
+}
+
+:root {
+  --font-roboto-flex: "Roboto Flex", sans-serif;
+}
+
+.home-page-container {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+
+.home-page-container .main {
+  width: 100%;
+  height: fit-content;
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\text-background.png");
+  background-size: cover;
+  background-position: top;
+  padding-top: 10vw;
+}
+
+.home-page-container .main .main-text {
+  width: 93%;
+  margin: 0 auto;
+  color: #0f0e35;
+  font-family: Zuume;
+  font-size: 8vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  padding-right: 0;
+}
+
+.home-page-container .main .main-text span {
+  color: #2d597a;
+}
+
+.home-page-container .main .description {
+  width: 93%;
+  margin: 0 auto;
+  color: #040414;
+  text-align: justify;
+  -webkit-text-stroke-width: 21;
+  -webkit-text-stroke-color: #fff;
+  font-family: var(--font-roboto-flex);
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
+.home-page-container .main .learn-more-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-page-container .main .learn-more-button button {
+  color: #ffffff;
+  font-family: Zuume;
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.08px;
+  padding: 7px 12px;
+  padding-top: 10px;
+  border: none;
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\home-button-background.png");
+  border-radius: 5px;
+  box-shadow: -4px 4px 14px 0px rgba(0, 0, 0, 0.60);
+}
+
+.home-page-container .images {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vw;
+}
+
+.home-page-container .images img {
+  width: 33%;
+}
+
+@media screen and (max-width: 600px) {
+  .home-page-container {
+    width: 100%;
+  }
+
+  .home-page-container .main {
+    width: 100%;
+    padding-top: 25vw;
+    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\test.png");
+  }
+
+  .home-page-container .main .main-text {
+    width: 89%;
+    font-size: 16vw;
+    letter-spacing: 1.2px;
+    padding-right: 0;
+  }
+
+  .home-page-container .main .main-text span {
+    color: #2d597a;
+  }
+
+  .home-page-container .main .description {
+    width: 90%;
+    font-size: 4.8vw;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-top: 3vw;
+    text-align: left;
+  }
+
+  .home-page-container .main .learn-more-button {
+    margin-top: 20px;
+  }
+
+  .home-page-container .main .learn-more-button button {
+    color: #dedede;
+    font-size: 5vw;
+    letter-spacing: 1.235px;
+    padding: 7px 12px;
+    padding-top: 8px;
+    border-radius: 2px;
+    margin: 3vw;
+  }
+
+  .home-page-container .images {
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+  }
+
+  .home-page-container .images img {
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .home-page-container {
+    width: 100%;
+  }
+
+  .home-page-container .main {
+    width: 100%;
+    padding-top: 25vw;
+    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\test.png");
+  }
+
+  .home-page-container .main .main-text {
+    width: 89%;
+    font-size: 16vw;
+    letter-spacing: 1.2px;
+    padding-right: 0;
+  }
+
+  .home-page-container .main .main-text span {
+    color: #2d597a;
+  }
+
+  .home-page-container .main .description {
+    width: 90%;
+    font-size: 4.8vw;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-top: 3vw;
+    text-align: left;
+  }
+
+  .home-page-container .main .learn-more-button {
+    margin-top: 20px;
+  }
+
+  .home-page-container .main .learn-more-button button {
+    color: #dedede;
+    font-size: 5vw;
+    letter-spacing: 1.235px;
+    padding: 7px 12px;
+    padding-top: 8px;
+    border-radius: 2px;
+    margin: 3vw;
+  }
+
+  .home-page-container .images {
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+  }
+
+  .home-page-container .images img {
+    width: 33%;
+  }
+}

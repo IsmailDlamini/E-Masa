@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@font-face {
+  font-family: "Zuume";
+  src: url("../fonts/Zuume Medium.ttf") format("truetype");
+}
+
+:root {
+  --font-roboto-flex: "Roboto Flex", sans-serif;
+}
+
+footer {
+  width: 100%;
+  height: 35vw;
+  margin-top: 3vw;
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\footer-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw;
+  position: relative;
+}
+
+footer .footer-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+footer .footer-logo img {
+  width: 8vw;
+}
+
+footer .introduction {
+  margin-top: 50px;
+  width: 30vw;
+}
+
+footer .introduction .title {
+  color: #ddd;
+  font-family: Zuume;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.925px;
+  padding-bottom: 0.5vw;
+}
+
+footer .introduction .text {
+  color: #fff;
+  font-family: var(--font-roboto-flex);
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer .navigation {
+  margin-top: 3vw;
+  width: fit-content;
+}
+
+footer .navigation .title {
+  color: #ddd;
+  font-family: Zuume;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.925px;
+  padding-bottom: 0.5vw;
+}
+
+footer .navigation ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+footer .navigation ul li {
+  color: #fff;
+  font-family: Zuume;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.43px;
+  text-decoration-line: underline;
+}
+
+footer .contact {
+  margin-top: 3vw;
+}
+
+footer .contact .title {
+  color: #dedede;
+  font-family: Zuume;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.925px;
+}
+
+footer .contact .details {
+  color: #fff;
+  text-align: justify;
+  font-family: var(--font-roboto-flex);
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer .contact .details .detail {
+  display: flex;
+  align-items: center;
+  padding-top: 0.7vw;
+}
+
+footer .contact .details div img {
+  padding-right: 10px;
+}
+
+footer .contact .details #address {
+  display: flex;
+  align-items: top;
+  padding-top: 0.7vw;
+}
+
+footer .contact .details #address ul {
+  list-style: none;
+}
+
+footer .contact .details #address ul li {
+  padding-top: 0.3vw;
+}
+
+footer .contact .details #address ul #last {
+  color: #ddd;
+  font-family: Zuume;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  padding-top: 1vw;
+}
+
+footer .copyright {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  font-family: Zuume;
+  font-size: 1.3vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  width: calc(100% - 10vw);
+  text-align: center;
+}
+
+footer .copyright span {
+  color: #9dcaeb;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+    height: fit-content;
+    margin-top: 3vw;
+    display: flex;
+    padding: 0 0;
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 100px;
+    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\footer-background-mobile.png");
+  }
+
+  footer .footer-logo {
+    height: 100%;
+    width: 100%;
+    align-items: initial;
+    justify-content: left;
+    padding-left: 20vw;
+  }
+
+  footer .footer-logo img {
+    width: 20vw;
+    transform: rotate(90deg);
+  }
+
+  footer .introduction {
+    margin-top: 0vw;
+    width: 90%;
+    padding-left: 10vw;
+  }
+
+  footer .introduction .title {
+    font-size: 11vw;
+    padding-bottom: 0.5vw;
+  }
+
+  footer .introduction .text {
+    font-size: 3.2vw;
+    letter-spacing: 0.845px;
+  }
+
+  footer .navigation {
+    margin-top: 8vw;
+    padding-left: 10vw;
+  }
+
+  footer .navigation .title {
+    font-size: 11vw;
+    padding-bottom: 0.5vw;
+  }
+
+  footer .navigation ul {
+    display: flex;
+    gap: 3vw;
+  }
+
+  footer .navigation ul li {
+    font-size: 4.5vw;
+    letter-spacing: 1.43px;
+  }
+
+  footer .contact {
+    margin-top: 8vw;
+    padding-left: 10vw;
+  }
+
+  footer .contact .title {
+    font-size: 11vw;
+  }
+
+  footer .contact .details {
+    font-size: 4.5vw;
+  }
+
+  footer .contact .details .detail {
+    padding-top: 2vw;
+  }
+
+  footer .contact .details div img {
+    padding-right: 10px;
+  }
+
+  footer .contact .details #address {
+    padding-top: 2vw;
+  }
+
+  footer .contact .details #address ul li {
+    padding-top: 1vw;
+  }
+
+  footer .contact .details #address ul #last {
+    font-size: 6vw;
+    padding-top: 3.5vw;
+  }
+
+  footer .copyright {
+    bottom: 20px;
+    font-size: 3.5vw;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  footer {
+    width: 100%;
+    height: fit-content;
+    margin-top: 3vw;
+    display: flex;
+    padding: 0 0;
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 100px;
+    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\footer-background-mobile.png");
+  }
+
+  footer .footer-logo {
+    height: 100%;
+    width: 100%;
+    align-items: initial;
+    justify-content: left;
+    padding-left: 20vw;
+  }
+
+  footer .footer-logo img {
+    width: 20vw;
+    transform: rotate(90deg);
+  }
+
+  footer .introduction {
+    margin-top: 0vw;
+    width: 90%;
+    padding-left: 10vw;
+  }
+
+  footer .introduction .title {
+    font-size: 11vw;
+    padding-bottom: 0.5vw;
+  }
+
+  footer .introduction .text {
+    font-size: 3.2vw;
+    letter-spacing: 0.845px;
+  }
+
+  footer .navigation {
+    margin-top: 8vw;
+    padding-left: 10vw;
+  }
+
+  footer .navigation .title {
+    font-size: 11vw;
+    padding-bottom: 0.5vw;
+  }
+
+  footer .navigation ul {
+    display: flex;
+    gap: 3vw;
+  }
+
+  footer .navigation ul li {
+    font-size: 4.5vw;
+    letter-spacing: 1.43px;
+  }
+
+  footer .contact {
+    margin-top: 8vw;
+    padding-left: 10vw;
+  }
+
+  footer .contact .title {
+    font-size: 11vw;
+  }
+
+  footer .contact .details {
+    font-size: 4.5vw;
+  }
+
+  footer .contact .details .detail {
+    padding-top: 2vw;
+  }
+
+  footer .contact .details div img {
+    padding-right: 10px;
+  }
+
+  footer .contact .details #address {
+    padding-top: 2vw;
+  }
+
+  footer .contact .details #address ul li {
+    padding-top: 1vw;
+  }
+
+  footer .contact .details #address ul #last {
+    font-size: 6vw;
+    padding-top: 3.5vw;
+  }
+
+  footer .copyright {
+    bottom: 20px;
+    font-size: 3.5vw;
+    width: 100%;
+  }
+}

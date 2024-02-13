@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@font-face {
+  font-family: "Zuume";
+  src: url("../fonts/Zuume Medium.ttf") format("truetype");
+}
+
+:root {
+  --font-roboto-flex: "Roboto Flex", sans-serif;
+}
+
+.contact-page-container {
+  width: 100%;
+}
+
+.contact-page-container .main {
+  width: 100%;
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-top: 10vw;
+}
+
+.contact-page-container .main .text-one {
+  width: 95%;
+  color: #0f0e35;
+  font-family: Zuume;
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  margin: 0 auto;
+}
+
+.contact-page-container .main .text-one span {
+  color: #2d597a;
+}
+
+.contact-page-container .main .text-two {
+  width: 95%;
+  margin: 0 auto;
+  color: #040414;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1vw;
+}
+
+.contact-page-container .main .form-container {
+  width: 95%;
+  border: 1px solid #0f0e35;
+  margin: 0 auto;
+  margin-top: 2vw;
+  padding: 15px;
+  /* padding-bottom: 5vw; */
+}
+
+.contact-page-container .main .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page-container .main .form-container form label {
+  color: #2d597a;
+  font-family: Zuume;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.08px;
+  margin: 1vw 0;
+  margin-top: 2vw;
+}
+
+.contact-page-container .main .form-container form input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px dotted #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0.5vw 0;
+  outline: none;
+  text-indent: 10px;
+}
+
+.contact-page-container .main .form-container form input::placeholder {
+  color: #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-page-container .main .form-container form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\dropdown-icon.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 2vw;
+  /* background: transparent; */
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px dotted #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0.8vw 0;
+  text-indent: 10px;
+  outline: none;
+}
+
+.contact-page-container .main .form-container form option {
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  background: #2d597a;
+  color: #fff;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-page-container .main .form-container form textarea {
+  height: 200px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px dotted #0f0e35;
+  color: #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+  text-indent: 10px;
+}
+
+.contact-page-container .main .form-container form textarea::placeholder {
+  color: #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-page-container .main .form-container form .submit-button {
+  width: calc(100% - 30px);
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contact-page-container .main .form-container form .submit-button button {
+  color: #ffffff;
+  font-family: Zuume;
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.08px;
+  padding: 7px 12px;
+  padding-top: 10px;
+  border: none;
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\home-button-background.png");
+  border-radius: 5px;
+  box-shadow: -4px 4px 14px 0px rgba(0, 0, 0, 0.6);
+}
+
+.contact-page-container .main .more-info {
+  width: 95%;
+  margin: 3vw auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-page-container .main .more-info .left .info-1 {
+  color: #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-page-container .main .more-info .left .info-2 {
+  display: flex;
+  margin-top: 1vw;
+}
+
+.contact-page-container .main .more-info .left .info-2 ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.contact-page-container .main .more-info .left .info-2 img {
+  filter: invert();
+}
+
+.contact-page-container .main .more-info .left .info-2 ul li {
+  color: #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-page-container .main .more-info .right .info-1 {
+  color: #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-page-container .main .more-info .right .info-2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+.contact-page-container .main .more-info .right .info-2 img {
+  filter: invert();
+  padding-right: 10px;
+}
+
+.contact-page-container .main .more-info .right .info-2 {
+  color: #0f0e35;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+
+@media screen and (max-width: 600px) { 
+
+  .contact-page-container {
+    width: 100%;
+  }
+  
+  .contact-page-container .main {
+    padding-top: 30vw;
+  }
+  
+  .contact-page-container .main .text-one {
+    width: 89%;
+    font-size: 13vw;
+  }
+   
+  .contact-page-container .main .text-two {
+    width: 89%;
+    text-align: left;
+    font-size: 5vw;
+    margin-top: 4vw;
+  }
+  
+  .contact-page-container .main .form-container {
+    width: 89%;
+    margin-top: 7vw;
+    padding: 15px;
+    /* padding-bottom: 5vw; */
+  }
+  
+  .contact-page-container .main .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-page-container .main .form-container form label {
+    font-size: 6vw;
+    margin: 1vw 0;
+    margin-top: 10vw;
+  }
+
+  .contact-page-container .main .form-container form label:nth-child(1){
+    margin-top: 1vw;
+  }
+  
+  .contact-page-container .main .form-container form input {
+    text-align: left;
+    font-size: 4.5vw;
+    padding: 0.5vw 0;
+    text-indent: 10px;
+  }
+  
+  .contact-page-container .main .form-container form input::placeholder {
+    text-align: left;
+    font-size: 4.5vw;
+  }
+  
+  .contact-page-container .main .form-container form select {
+    background-size: 6vw;
+    text-align: left;
+    font-size: 4.5vw;
+    padding: 0.8vw 0;
+    text-indent: 8px;
+  }
+  
+  .contact-page-container .main .form-container form option {
+    padding: 10px;
+    text-align: left;
+    font-size: 4.5vw;
+  }
+  
+  .contact-page-container .main .form-container form textarea {
+    height: 200px;
+    text-align: left;
+    font-size: 4.5vw;
+    text-indent: 10px;
+  }
+  
+  .contact-page-container .main .form-container form textarea::placeholder {
+    font-size: 4.5vw;
+  }
+  
+  .contact-page-container .main .form-container form .submit-button {
+    width: calc(100% - 30px);
+    margin-top: 40px;
+    margin: 20px auto;
+    margin-bottom: 0;
+  }
+  
+  .contact-page-container .main .form-container form .submit-button button {
+    font-size: 5vw;
+  }
+  
+  .contact-page-container .main .more-info {
+    width: 89%;
+    margin: 3vw auto;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .contact-page-container .main .more-info .left .info-1 {
+    text-align: justify;
+    font-size: 5vw;
+  }
+  
+  .contact-page-container .main .more-info .left .info-2 {
+    margin-top: 5vw;
+  }
+  
+  .contact-page-container .main .more-info .left .info-2 ul {
+    padding-left: 10px;
+  }
+    
+  .contact-page-container .main .more-info .left .info-2 ul li {
+    text-align: justify;
+    font-size: 5vw;
+  }
+  
+  .contact-page-container .main .more-info .right .info-1 {
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  
+  .contact-page-container .main .more-info .right .info-2{
+    margin-top: 5vw;
+  }
+
+  .contact-page-container .main .more-info .right .info-2 {
+    text-align: justify;
+    font-size: 5vw;
+    text-decoration-line: underline;
+  }
+  
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+  .contact-page-container {
+    width: 100%;
+  }
+  
+  .contact-page-container .main {
+    padding-top: 30vw;
+  }
+  
+  .contact-page-container .main .text-one {
+    width: 89%;
+    font-size: 13vw;
+  }
+   
+  .contact-page-container .main .text-two {
+    width: 89%;
+    text-align: left;
+    font-size: 5vw;
+    margin-top: 4vw;
+  }
+  
+  .contact-page-container .main .form-container {
+    width: 89%;
+    margin-top: 7vw;
+    padding: 15px;
+    /* padding-bottom: 5vw; */
+  }
+  
+  .contact-page-container .main .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-page-container .main .form-container form label {
+    font-size: 6vw;
+    margin: 1vw 0;
+    margin-top: 10vw;
+  }
+
+  .contact-page-container .main .form-container form label:nth-child(1){
+    margin-top: 1vw;
+  }
+  
+  .contact-page-container .main .form-container form input {
+    text-align: left;
+    font-size: 4.5vw;
+    padding: 0.5vw 0;
+    text-indent: 10px;
+  }
+  
+  .contact-page-container .main .form-container form input::placeholder {
+    text-align: left;
+    font-size: 4.5vw;
+  }
+  
+  .contact-page-container .main .form-container form select {
+    background-size: 6vw;
+    text-align: left;
+    font-size: 4.5vw;
+    padding: 0.8vw 0;
+    text-indent: 8px;
+  }
+  
+  .contact-page-container .main .form-container form option {
+    padding: 10px;
+    text-align: left;
+    font-size: 4.5vw;
+  }
+  
+  .contact-page-container .main .form-container form textarea {
+    height: 200px;
+    text-align: left;
+    font-size: 4.5vw;
+    text-indent: 10px;
+  }
+  
+  .contact-page-container .main .form-container form textarea::placeholder {
+    font-size: 4.5vw;
+  }
+  
+  .contact-page-container .main .form-container form .submit-button {
+    width: calc(100% - 30px);
+    margin-top: 40px;
+    margin: 20px auto;
+    margin-bottom: 0;
+  }
+  
+  .contact-page-container .main .form-container form .submit-button button {
+    font-size: 5vw;
+  }
+  
+  .contact-page-container .main .more-info {
+    width: 89%;
+    margin: 3vw auto;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .contact-page-container .main .more-info .left .info-1 {
+    text-align: justify;
+    font-size: 5vw;
+  }
+  
+  .contact-page-container .main .more-info .left .info-2 {
+    margin-top: 5vw;
+  }
+  
+  .contact-page-container .main .more-info .left .info-2 ul {
+    padding-left: 10px;
+  }
+    
+  .contact-page-container .main .more-info .left .info-2 ul li {
+    text-align: justify;
+    font-size: 5vw;
+  }
+  
+  .contact-page-container .main .more-info .right .info-1 {
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  
+  .contact-page-container .main .more-info .right .info-2{
+    margin-top: 5vw;
+  }
+
+  .contact-page-container .main .more-info .right .info-2 {
+    text-align: justify;
+    font-size: 5vw;
+    text-decoration-line: underline;
+  }
+  
+
+}

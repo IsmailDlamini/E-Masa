@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@font-face {
+  font-family: "Zuume";
+  src: url("../fonts/Zuume Medium.ttf") format("truetype");
+}
+
+:root {
+  --font-roboto-flex: "Roboto Flex", sans-serif;
+}
+
+.about-page-container {
+  width: 100%;
+}
+
+.about-page-container .main-content {
+  width: 100%;
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10vw;
+}
+
+.about-page-container .main-content .text-one {
+  color: #0f0e35;
+  font-family: Zuume;
+  font-size: 7vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.about-page-container .main-content .reasons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.about-page-container .main-content .reasons .reason {
+  display: flex;
+  width: 48%;
+  margin-right: 2%;
+  margin-top: 50px;
+}
+
+.about-page-container .main-content .reasons .reason .image {
+  margin-right: 30px;
+}
+
+.about-page-container .main-content .reasons .reason img {
+}
+
+.about-page-container .main-content .reasons .reason .text {
+  width: 60%;
+  color: #040414;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 1.7vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.about-page-container .main-content .text-two {
+  width: 95%;
+  margin: 0 auto;
+  color: #2d597a;
+  font-family: Zuume;
+  font-size: 7vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  margin-top: 4vw;
+}
+
+.about-page-container .main-content .approach {
+  width: 95%;
+  margin: 0 auto;
+  color: #040414;
+  text-align: justify;
+  font-family: "Roboto Flex";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 2vw;
+}
+
+.about-page-container .main-content .enrol-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw;
+}
+
+.about-page-container .main-content .enrol-button button {
+  color: #ffffff;
+  font-family: Zuume;
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.08px;
+  padding: 7px 12px;
+  padding-top: 10px;
+  border: none;
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\home-button-background.png");
+  border-radius: 5px;
+  box-shadow: -4px 4px 14px 0px rgba(0, 0, 0, 0.6);
+}
+
+.about-page-container .main-content .images {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 8vw;
+  margin-bottom: 5vw;
+}
+
+.about-page-container .main-content .images img {
+  width: 32%;
+}
+
+@media screen and (max-width: 600px) {
+  .about-page-container .main-content {
+    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background-mobile.png");
+    padding-top: 30vw;
+  }
+
+  .about-page-container .main-content .text-one {
+    font-size: 10vw;
+    width: 88%;
+  }
+
+  .about-page-container .main-content .reasons {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .about-page-container .main-content .reasons .reason {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+
+  .about-page-container .main-content .reasons .reason .image {
+    margin-right: 15px;
+  }
+
+  .about-page-container .main-content .reasons .reason img {
+    width: 40vw;
+  }
+
+  .about-page-container .main-content .reasons .reason .text {
+    width: 100%;
+    font-size: 4vw;
+    text-align: left;
+  }
+
+  .about-page-container .main-content .text-two {
+    width: 90%;
+    font-size: 10vw;
+    margin-top: 4vw;
+  }
+
+  .about-page-container .main-content .approach {
+    width: 90%;
+    text-align: left;
+    font-size: 4vw;
+    margin-top: 2vw;
+  }
+
+  .about-page-container .main-content .enrol-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+  }
+
+  .about-page-container .main-content .enrol-button button {
+    font-size: 4.5vw;
+  }
+
+  .about-page-container .main-content .images {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 8vw;
+    margin-bottom: 5vw;
+  }
+
+  .about-page-container .main-content .images img {
+    width: 32%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .about-page-container .main-content {
+    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background-mobile.png");
+    padding-top: 30vw;
+  }
+
+  .about-page-container .main-content .text-one {
+    font-size: 10vw;
+    width: 88%;
+  }
+
+  .about-page-container .main-content .reasons {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .about-page-container .main-content .reasons .reason {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+
+  .about-page-container .main-content .reasons .reason .image {
+    margin-right: 15px;
+  }
+
+  .about-page-container .main-content .reasons .reason img {
+    width: 40vw;
+  }
+
+  .about-page-container .main-content .reasons .reason .text {
+    width: 100%;
+    font-size: 4vw;
+    text-align: left;
+  }
+
+  .about-page-container .main-content .text-two {
+    width: 90%;
+    font-size: 10vw;
+    margin-top: 4vw;
+  }
+
+  .about-page-container .main-content .approach {
+    width: 90%;
+    text-align: left;
+    font-size: 4vw;
+    margin-top: 2vw;
+  }
+
+  .about-page-container .main-content .enrol-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+  }
+
+  .about-page-container .main-content .enrol-button button {
+    font-size: 4.5vw;
+  }
+
+  .about-page-container .main-content .images {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 8vw;
+    margin-bottom: 5vw;
+  }
+
+  .about-page-container .main-content .images img {
+    width: 32%;
+  }
+}

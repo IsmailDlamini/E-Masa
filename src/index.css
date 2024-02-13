@@ -1,0 +1,38 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\background-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  body{
+    background-image: url('C:\Users\Ismail\Desktop\Emasa\client\src\assets\background-mobile.png');
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
+  }
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+  body{
+    background-image: url('C:\Users\Ismail\Desktop\Emasa\client\src\assets\background-mobile.png');
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
+  }
+
+}

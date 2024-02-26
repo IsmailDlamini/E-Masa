@@ -5,14 +5,12 @@
   box-sizing: border-box;
 }
 
-
 body{
   background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
-
 
 @media screen and (max-width: 600px) {
 
@@ -25,8 +23,7 @@ body{
 
 }
 
-
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
 
   body{
     background-image: url('C:\Users\Ismail\Desktop\Emasa\client\src\assets\background-mobile.png');

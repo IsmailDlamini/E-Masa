@@ -1,4 +1,6 @@
 import menu_burger from "../assets/menu-burger.png";
+//please do not use this main menu burger 
+//only in the case of an emergency
 import site_logo from "../assets/site_logo.png";
 import "./Header.css";
 import { Link } from "react-router-dom";
@@ -21,7 +23,7 @@ const Header = () => {
             <li>HOME</li>
           </Link>
           <Link to={"/about"} style={{ textDecoration: "none" }}>
-            <li>WHY CHOSE US?</li>
+            <li>WHY CHOOSE US?</li>
           </Link>
           <Link to={"/contact"} style={{ textDecoration: "none" }}>
             <li>GET IN TOUCH</li>
@@ -56,19 +58,19 @@ const Header = () => {
           </Link>
         </ul>
 
-        <ul className="navigation-bar" onClick={handleMobileNav}>
+        {/* <ul className="navigation-bar" onClick={handleMobileNav}>
           <li className={`${MobileNavState ? "" : "rotate-first-nav-stick"}`}></li>
           <li className={`${MobileNavState ? "" : "rotate-second-nav-stick"}`}></li>
           <li className={`${MobileNavState ? "" : "slide-last-stick"}`}></li>
-          {/* <li>hello</li> */}
-        </ul>
-{/* 
+         
+        </ul> */}
+
         <img
           src={menu_burger}
           alt="menu_burger"
           className="menu-burger"
           onClick={handleMobileNav}
-        /> */}
+        />
       </div>
     </>
   );

@@ -59,7 +59,7 @@
 @media screen and (max-width: 600px) {
 
   body{
-    overflow: hidden;
+    overflow-x: hidden;
   }
  
   .header img {

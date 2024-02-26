@@ -131,6 +131,7 @@
   .about-page-container .main-content {
     background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background-mobile.png");
     padding-top: 30vw;
+    overflow-x: hidden;
   }
 
   .about-page-container .main-content .text-one {

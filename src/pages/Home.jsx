@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <div className="home-page-container">
-        <Header />
+        <Header page={1} />
         <div className="main">
           <div className="main-text">
             Unlock your <span>child{"'"}s full potential</span> With our{" "}

@@ -184,6 +184,7 @@
   background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\home-button-background.png");
   border-radius: 5px;
   box-shadow: -4px 4px 14px 0px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 
 .contact-page-container .main .more-info {
@@ -225,6 +226,11 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+ 
+}
+
+.contact-page-container .main .more-info .left .info-2 ul li{
+  color: #0f0e35;
 }
 
 .contact-page-container .main .more-info .right .info-1 {
@@ -258,6 +264,11 @@
   font-weight: 500;
   line-height: normal;
   text-decoration-line: underline;
+}
+
+.contact-page-container .main .more-info .left .info-2 #direction a{
+  text-decoration: underline;
+  color: #0f0e35;
 }
 
 
@@ -398,7 +409,7 @@
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
 
   .contact-page-container {
     width: 100%;

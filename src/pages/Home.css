@@ -37,9 +37,6 @@
   padding-right: 0;
 }
 
-.home-page-container .main .main-text span {
-  color: #2d597a;
-}
 
 .home-page-container .main .description {
   width: 93%;
@@ -111,10 +108,6 @@
     padding-right: 0;
   }
 
-  .home-page-container .main .main-text span {
-    color: #2d597a;
-  }
-
   .home-page-container .main .description {
     width: 90%;
     font-size: 4.8vw;
@@ -148,7 +141,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
   .home-page-container {
     width: 100%;
   }
@@ -164,10 +157,6 @@
     font-size: 16vw;
     letter-spacing: 1.2px;
     padding-right: 0;
-  }
-
-  .home-page-container .main .main-text span {
-    color: #2d597a;
   }
 
   .home-page-container .main .description {

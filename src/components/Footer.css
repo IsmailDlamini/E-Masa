@@ -90,6 +90,7 @@ footer .navigation ul li {
   line-height: normal;
   letter-spacing: 1.43px;
   text-decoration-line: underline;
+  cursor: pointer;
 }
 
 footer .contact {
@@ -149,6 +150,11 @@ footer .contact .details #address ul #last {
   line-height: normal;
   text-decoration-line: underline;
   padding-top: 1vw;
+}
+
+footer .contact .details #address ul #last a{
+  text-decoration: none;
+  color: #ddd;
 }
 
 footer .copyright {
@@ -272,7 +278,7 @@ footer .copyright span {
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
   footer {
     width: 100%;
     height: fit-content;

@@ -8,12 +8,13 @@ import about_image_1 from "../assets/about-image-1.png";
 import about_image_2 from "../assets/about-image-2.png";
 import about_image_3 from "../assets/about-image-3.png";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <>
       <div className="about-page-container">
-        <Header />
+        <Header page={2} />
 
         <div className="main-content">
           <div className="text-one">Why Choose Us?</div>
@@ -76,7 +77,9 @@ const About = () => {
           </div>
 
           <div className="enrol-button">
-            <button>ENROL TODAY</button>
+            <Link to={"/contact"}>
+              <button>ENROL TODAY</button>
+            </Link>
           </div>
 
           <div className="images">

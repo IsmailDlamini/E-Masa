@@ -112,6 +112,7 @@
   background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\home-button-background.png");
   border-radius: 5px;
   box-shadow: -4px 4px 14px 0px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 
 .about-page-container .main-content .images {
@@ -188,6 +189,7 @@
 
   .about-page-container .main-content .enrol-button button {
     font-size: 4.5vw;
+
   }
 
   .about-page-container .main-content .images {
@@ -204,7 +206,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
   .about-page-container .main-content {
     background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background-mobile.png");
     padding-top: 30vw;

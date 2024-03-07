@@ -3,8 +3,12 @@ import email_icon from "../assets/email-icon.png";
 import phone_icon from "../assets/phone-icon.png";
 import location_icon from "../assets/location-icon.png";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const direction_link =
+    "https://www.google.com/maps/dir/-25.443947,30.9628904/emasa/@-25.4593794,30.9512708,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x1ee84bca7beb83cf:0x2522498576ddb2d3!2m2!1d30.9780883!2d-25.4730239?entry=ttu";
+
   return (
     <>
       <footer>
@@ -28,10 +32,15 @@ const Footer = () => {
           <div className="title">quick links</div>
 
           <ul>
-            <li>HOME</li>
-            <li>WHY CHOSE US?</li>
-            <li>GET IN TOUCH</li>
-            <li>2023 FEES</li>
+            <Link to={"/"} style={{ textDecoration: "none" }}>
+              <li>HOME</li>
+            </Link>
+            <Link to={"/about"} style={{ textDecoration: "none" }}>
+              <li>WHY CHOOSE US?</li>
+            </Link>
+            <Link to={"/contact"} style={{ textDecoration: "none" }}>
+              <li>GET IN TOUCH</li>
+            </Link>
           </ul>
         </div>
 
@@ -58,7 +67,9 @@ const Footer = () => {
                   <li>Nelspruit Central</li>
                   <li>Mbombela</li>
                   <li>Mpumalanga</li>
-                  <li id="last">GET DIRECTIONS</li>
+                  <li id="last">
+                    <a href={direction_link}>GET DIRECTIONS</a>
+                  </li>
                 </ul>
               </div>
             </div>

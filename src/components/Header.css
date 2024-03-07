@@ -21,6 +21,7 @@
 .header img {
   padding: 20px 40px;
   width: 17vw;
+  cursor: pointer;
 }
 
 .header .menu-burger {
@@ -37,13 +38,12 @@
 .header .header-desktop li {
   color: #0f0e35;
   font-family: Zuume;
-  font-size: 22px;
+  font-size: 1.5vw;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 1.3px;
   text-transform: capitalize;
-  text-decoration: underline;
 }
 
 .header .header-mobile {
@@ -72,6 +72,11 @@
     width: 27vw;
   }
 
+  .header .menu-burger-close {
+    display: initial;
+    width: 23vw;
+  }
+
   .header .header-desktop {
     display: none;
   }
@@ -89,9 +94,7 @@
     background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\mobile-navbar-background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 1vw 0 7vw 5vw;
-
-    
+    padding: 1vw 0 7vw 5vw; 
   }
   
   .header .header-mobile li {
@@ -184,15 +187,126 @@
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-
-
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
   .header img {
     padding: 20px 20px;
-    width: 40vw;
+    width: 35vw;
   }
 
   .header .header-desktop {
     display: none;
   }
+
+  .header .menu-burger {
+    display: initial;
+    width: 20vw;
+  }
+
+  .header .menu-burger-close {
+    display: initial;
+    width: 17vw;
+  }
+
+  .header .header-mobile {
+    display: initial;
+    position: absolute;
+    top: 25vw;
+    width: 100%;
+    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\mobile-navbar-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1vw 0 7vw 5vw;
+    list-style: none;
+    
+  }
+  
+  .header .header-mobile li {
+    color: #fff;
+    font-family: Zuume;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.235px;
+    border-bottom: 1px white dotted;
+    padding: 4vw 0;
+  }
+
+  .header .show-mobile-nav{
+   transition: all .5s ease-in;
+   transform: translateX(-100%);
+   animation: slideIn .5s ease-in-out;
+  }
+
+  .header .hide-mobile-nav{
+    transition: all .5s ease-out;
+    animation: slideOut .5s ease-in-out;
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(100%);
+      display: none;
+    }
+  }
+
+  .header .navigation-bar{
+      list-style-type: none;
+      margin-right: 30px;
+      display: block;
+  }
+
+  .header .navigation-bar li{
+    width: 45px;
+    height: 5px;
+    background-color: black;
+    margin-top: 4px;
+    transition: all .3s ease-in-out;
+  }
+
+  .header .navigation-bar li:nth-child(2){
+    margin-left: -5px; 
+  }
+
+  .header .rotate-first-nav-stick {
+    transform: rotate(45deg);
+  }
+  
+  .header .rotate-second-nav-stick {
+    transform: rotate(-45deg) translateX(10px) translateY(-2px);
+  }
+
+  .header .slide-last-stick{
+    transform: translateX(-1000px);
+    animation: hideStick .5s ease-in-out;
+  }
+
+
+  @keyframes hideStick {
+    from {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-100px);
+      display: none;
+    }
+  }
+
+
 }

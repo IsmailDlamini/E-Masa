@@ -1,12 +1,11 @@
 import menu_burger from "../assets/menu-burger.png";
-//please do not use this main menu burger 
-//only in the case of an emergency
+import menu_burger_close from "../assets/menu-burger-close.png"
 import site_logo from "../assets/site_logo.png";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const Header = () => {
+const Header = (prop) => {
   const [MobileNavState, setMobileNavState] = useState(true);
 
   const handleMobileNav = () => {
@@ -16,16 +15,36 @@ const Header = () => {
   return (
     <>
       <div className="header">
-        <img src={site_logo} alt="site logo" />
+        <Link to={"/"}>
+          <img src={site_logo} alt="site logo" />
+        </Link>
 
         <ul className="header-desktop">
-          <Link to={"/"} style={{ textDecoration: "none" }}>
+          <Link
+            to={"/"}
+            style={{
+              textDecoration: prop.page === 1 ? "underline" : "none",
+              textDecorationColor: "black",
+            }}
+          >
             <li>HOME</li>
           </Link>
-          <Link to={"/about"} style={{ textDecoration: "none" }}>
+          <Link
+            to={"/about"}
+            style={{
+              textDecoration: prop.page === 2 ? "underline" : "none",
+              textDecorationColor: "black",
+            }}
+          >
             <li>WHY CHOOSE US?</li>
           </Link>
-          <Link to={"/contact"} style={{ textDecoration: "none" }}>
+          <Link
+            to={"/contact"}
+            style={{
+              textDecoration: prop.page === 3 ? "underline" : "none",
+              textDecorationColor: "black",
+            }}
+          >
             <li>GET IN TOUCH</li>
           </Link>
         </ul>
@@ -47,7 +66,7 @@ const Header = () => {
             style={{ textDecoration: "none" }}
             onClick={handleMobileNav}
           >
-            <li>WHY CHOSE US?</li>
+            <li>WHY CHOOSE US?</li>
           </Link>
           <Link
             to={"/contact"}
@@ -65,12 +84,20 @@ const Header = () => {
          
         </ul> */}
 
-        <img
+        {MobileNavState ? <img
           src={menu_burger}
           alt="menu_burger"
           className="menu-burger"
           onClick={handleMobileNav}
+        /> : 
+        
+        <img
+          src={menu_burger_close}
+          alt="menu_burger-close"
+          className="menu-burger-close"
+          onClick={handleMobileNav}
         />
+}
       </div>
     </>
   );

@@ -91,7 +91,7 @@
     position: absolute;
     top: 25vw;
     width: 100%;
-    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\mobile-navbar-background.png");
+    background-image: url("../assets/mobile-navbar-background.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1vw 0 7vw 5vw; 
@@ -212,7 +212,7 @@
     position: absolute;
     top: 25vw;
     width: 100%;
-    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\mobile-navbar-background.png");
+    background-image: url("../assets/mobile-navbar-background.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1vw 0 7vw 5vw;

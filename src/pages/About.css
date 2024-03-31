@@ -15,7 +15,7 @@
 
 .about-page-container .main-content {
   width: 100%;
-  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background.png");
+  background-image: url("../assets/about-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10vw;
@@ -109,7 +109,7 @@
   padding: 7px 12px;
   padding-top: 10px;
   border: none;
-  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\home-button-background.png");
+  background-image: url("../assets/home-button-background.png");
   border-radius: 5px;
   box-shadow: -4px 4px 14px 0px rgba(0, 0, 0, 0.6);
   cursor: pointer;
@@ -130,7 +130,7 @@
 
 @media screen and (max-width: 600px) {
   .about-page-container .main-content {
-    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background-mobile.png");
+    background-image: url("../assets/about-background-mobile.png");
     padding-top: 30vw;
     overflow-x: hidden;
   }
@@ -208,7 +208,7 @@
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
   .about-page-container .main-content {
-    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background-mobile.png");
+    background-image: url("../assets/about-background-mobile.png");
     padding-top: 30vw;
   }
 

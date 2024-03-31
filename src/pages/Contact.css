@@ -15,7 +15,7 @@
 
 .contact-page-container .main {
   width: 100%;
-  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\about-background.png");
+  background-image: url("../assets/about-background.png");
   background-size: cover;
   background-repeat: repeat-y;
   padding-top: 10vw;
@@ -105,7 +105,7 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\dropdown-icon.png");
+  background-image: url("../assets/dropdown-icon.png");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 2vw;
@@ -181,7 +181,7 @@
   padding: 7px 12px;
   padding-top: 10px;
   border: none;
-  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\home-button-background.png");
+  background-image: url("../assets/home-button-background.png");
   border-radius: 5px;
   box-shadow: -4px 4px 14px 0px rgba(0, 0, 0, 0.6);
   cursor: pointer;

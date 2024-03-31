@@ -13,7 +13,7 @@ footer {
   width: 100%;
   height: 35vw;
   margin-top: 3vw;
-  background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\footer-background.png");
+  background-image: url("../assets/footer-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -185,7 +185,7 @@ footer .copyright span {
     position: relative;
     flex-direction: column;
     padding-bottom: 100px;
-    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\footer-background-mobile.png");
+    background-image: url("../assets/footer-background-mobile.png");
   }
 
   footer .footer-logo {
@@ -288,7 +288,7 @@ footer .copyright span {
     position: relative;
     flex-direction: column;
     padding-bottom: 100px;
-    background-image: url("C:\Users\Ismail\Desktop\Emasa\client\src\assets\footer-background-mobile.png");
+    background-image: url("../assets/footer-background-mobile.png");
   }
 
   footer .footer-logo {

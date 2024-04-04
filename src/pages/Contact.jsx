@@ -25,6 +25,9 @@ const Contact = () => {
     e.preventDefault();
     try {
       const response = await fetch("https://emasa.cibs.tech/send-mail.php", {
+        // if you are testing refer to the top line of the function to find all the links that you need to use
+
+        //we are using a php server and it needs to be used on Xamp if you are testing locally to make sure that the email sending does work
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -37,7 +40,9 @@ const Contact = () => {
       // const data = await response.text();
       alert("Email sent successfully!");
     } catch (error) {
-      console.error("There was a problem with the fetch operation:", error);
+      console.error("There was a problem with sending the email:", error);
+      // we need to console the information for testing purposes
+
       alert(
         "An error occurred while sending the email. Please try again later."
       );
